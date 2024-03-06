@@ -1,0 +1,476 @@
+ <!--Codes respectfully from Bedimcode and modified-->
+
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- ========= AOS CSS ========= -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Educaseek - Physical Education and Health IV</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <i class="ri-graduation-cap-line"></i> Educaseek
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#videos" class="nav__link">
+                        <i class="ri-video-line"></i>
+                        <span>Videos</span>
+                     </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#modules" class="nav__link">
+                        <i class="ri-file-line"></i>
+                        <span>Modules</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#form" class="nav__link">
+                        <i class="ri-question-answer-line"></i>
+                        <span>Questionnaires</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!--Theme Button-->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+         </nav>
+         
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div data-aos="fade-up" class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Explore & <br>
+                     Learn
+                  </h1>
+
+                  <p class="home__description">
+                     Embark on your academic journey with ease as Educaseek becomes your go-to destination for accessing 
+                     a wealth of educational resources tailored to STEM Computing subjects.
+                  </p>
+
+                  <a href="#videos" class="button"> Explore Now</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home_video.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home_module.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home_questionnaire.png" alt="image" class="home__img">
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <div class="services__container container grid">
+               <article data-aos="fade-right" class="services__card">
+                  <i class="ri-shield-check-line"></i>
+                  <h3 class="services__title">Accurate Information</h3>
+                  <p class="services__description">"Educaseek rigorously vets its content to guarantee precision and reliability."</p>
+               </article>
+
+               <article data-aos="fade-up" class="services__card">
+                  <i class="ri-timer-flash-line"></i>
+                  <h3 class="services__title">Timely</h3>
+                  <p class="services__description">"Educaseek prioritizes delivering up-to-date lesson materials, keeping students
+                      informed with the latest developments in STEM Computing."</p>
+               </article>
+
+               <article data-aos="fade-left" class="services__card">
+                  <i class="ri-user-follow-line"></i>
+                  <h3 class="services__title">Reliable Authors</h3>
+                  <p class="services__description">"Educaseek draws from reputable platforms like YouTube, ensuring materials come from 
+                     trusted authors and institutions."</p>
+               </article>
+            </div>
+            
+         </section>
+
+         <!--==================== VIDEOS ====================-->
+         <section class="vids_quests section" id="videos">
+            <h2 data-aos="fade-down" class="section__title">
+               Video Materials
+            </h2>
+            
+            <div data-aos="fade-up" class="vids_quests__container container">
+               <div class="vids_quests__swiper swiper" >
+                  <div class="swiper-wrapper">
+
+                     <article class="vids_quests__card swiper-slide">
+                        <iframe id="vid_size" src="https://www.youtube.com/embed/WbbA4MUBMC8?si=bPGiHVrNvs4a562Q" title="YouTube video player"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <h2 class="vids_quests__title">Recreational Activities | Physical Education</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Sir Frank Cabanero</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+   
+                        <a href="https://www.youtube.com/watch?v=WbbA4MUBMC8" target="_blank" class="bottom=link">
+                           <button class="button">Explore</button>
+                        </a>        
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/xUqTgNJgWUs?si=4-VsRyiNDPUydpid" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">Camping 101 for Beginners | Useful Knowledge</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Useful Knowledge</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=xUqTgNJgWUs" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/41UGUr5cv64?si=xwuMIN3223mA6UKN" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">What You Really Need for Camping & Backpacking | Essential Gear Guide</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Alexander Ayling</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=41UGUr5cv64" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+                    
+                  </div>
+
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+
+         <!--==================== Modules ====================-->
+         <section class="modules" id="modules">
+            <br><br><br><br><!--==== changes ===-->
+            <h2 data-aos="fade-down" class="section__title">
+               Modules
+            </h2>
+
+            <div data-aos="fade-up" class="modules__container container">
+               <div class="modules__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="https://drive.google.com/file/d/1oCU-0niVmJMPh1v1B6AhH5C9AxGbstP_/view?usp=drive_link" target="_blank" class="modules__card swiper-slide">
+                        <img src="assets/img/P6_module.png" alt="image" class="modules__img">
+         
+                        <div>
+                           <h2 class="modules__title">Recreational Activities</h2>
+                           <div class="modules__info">
+                              <span class="modules__author">Lemery Colleges</span>
+                              <span class="modules__platform">Studocu</span>
+                           </div>
+
+                           <div class="modules__stars">
+                              <span class="modules__platform">Recreational activities are actions that are performed solely for the enjoyment, pleasure and amusement of individuals</span>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="https://drive.google.com/file/d/1lWrqyzJi4HuaHW_k7z-CqPT1shPGbEC-/view?usp=drive_link" target="_blank" class="modules__card swiper-slide">
+                        <img src="assets/img/P6_module.png" alt="image" class="modules__img">
+                     
+                        <div>
+                           <h2 class="modules__title">PE 4 Lesson 1 - Recreational Activities</h2>
+                           <div class="modules__info">
+                              <span class="modules__author">Jenina</span>
+                              <span class="modules__platform">Scribd</span>
+                           </div>
+
+                           <div class="modules__stars">
+                              <span class="modules__platform">The benefits of recreational activities</span>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="https://drive.google.com/file/d/1lWrqyzJi4HuaHW_k7z-CqPT1shPGbEC-/view?usp=drive_link" target="_blank" class="modules__card swiper-slide">
+                        <img src="assets/img/P6_module.png" alt="image" class="modules__img">
+                     
+                        <div>
+                           <h2 class="modules__title">Recreational Activities</h2>
+                           <div class="modules__info">
+                              <span class="modules__author">Marvin Bronoso</span>
+                              <span class="modules__platform">Slideshare</span>
+                           </div>
+
+                           <div class="modules__stars">
+                              <span class="modules__platform">Discuss the nature of different recreational activities</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               
+            </div>
+            <br><!--==== changes ===-->
+         </section>
+
+         <!--==================== FORMS ====================-->
+         <section class="vids_quests section" id="form">
+            <h2 data-aos="fade-down" class="section__title">
+               Questionnaire Forms
+            </h2>
+            
+            <div data-aos="fade-up" class="vids_quests__container container">
+               <div class="quests__swiper swiper" >
+                  <div class="swiper-wrapper">
+                     <article class="vids_quests__card swiper-slide">   
+                        <img src="assets/img/P6_questionnaire.png" alt="image" class="vids_quests__img">
+
+                        <h2 class="vids_quests__title">RECREATIONAL ACTIVITIES</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">By nelliza nucup</span>
+                           <span class="vids_quests__platform">Quizlet (15)</span>
+                        </div>
+
+                        <a href="https://quizizz.com/admin/quiz/608774dad1f059001d131ccc?source=quiz_share" target="_blank" class="form_bottom-link" >
+                           <button class="button">Explore</button>
+                        </a>         
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <img src="assets/img/P6_questionnaire.png" alt="image" class="vids_quests__img">
+                        
+                        <h2 class="vids_quests__title">RECREATIONAL ACTIVITIES QUIZ</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Angelito Cagurangan</span>
+                           <span class="vids_quests__platform">Quizlet (30)</span>
+                        </div>
+   
+                        <a href="https://quizizz.com/admin/quiz/604837df14e19a001b57bf9f?source=quiz_share" target="_blank" class="form_bottom-link" >
+                           <button class="button">Explore</button>
+                        </a>  
+                     </article>
+                  </div>
+
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer data-aos="fade-down" class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">
+                  <i class="ri-book-3-line"></i> Educaseek
+               </a>
+
+               <p class="footer__description">
+                  Explore and Learn 
+                  <br> Empower Your Education Journey 
+                  <br> with Educaseek
+               </p>
+
+               <br>
+               <p class="footer_description" id="disclaimer">
+                  DISCLAIMER:
+                  All of the information compiled in this website (lesson materials, PDF, Youtube videos, questionnaires) 
+                  are not ours and credited rightfully to the owners. If they seem to have materials that is not copyrighted 
+                  appropriately or there are materials need to remove, ordered by the owner of the material, please contact us 
+                  in our contact information and we will gladly assist the process.
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">Info</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">FAQs</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Privacy Policy</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Terms of Services</a>
+                  </li>
+               </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Group</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">Our Team</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Advisers</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Goal</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Rate Center</a>
+                  </li>
+               </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <address class="footer__info">
+                        Pamantasan ng Cabuyao <br>
+                        Katapatan Homes 
+                     </address>
+                  </li>
+
+                  <li>
+                     <address class="footer__info">
+                        Gmail <br>
+                        <a href="https://mail.google.com/mail/u/5/#inbox" target="_blank">
+                           educaseekofficial@gmail.com
+                       </a>
+                     </address>
+                  </li>
+
+                  <li>
+                     <address class="footer__info">
+                        Facebook <br>
+                       facebook.com 
+                     </address>
+                  </li>
+               </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+
+                     </a>
+
+                     <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                        
+                     </a>
+
+                     <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                        
+                     </a>
+                  </div>
+               </div>
+
+               
+            </div>
+         </div>
+
+         <span class="footer__copy">
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <!-- ================== AOS ================== -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> 
+         AOS.init({
+               duration: 500,
+         }); 
+      </script>
+    
+   </body>
+</html>

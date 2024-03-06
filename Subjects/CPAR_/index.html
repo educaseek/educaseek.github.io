@@ -1,0 +1,665 @@
+ <!--Codes respectfully from Bedimcode and modified-->
+
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- ========= AOS CSS ========= -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Educaseek - Contemporary Philippine Arts From the Regions</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <i class="ri-graduation-cap-line"></i> Educaseek
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#videos" class="nav__link">
+                        <i class="ri-video-line"></i>
+                        <span>Videos</span>
+                     </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#modules" class="nav__link">
+                        <i class="ri-file-line"></i>
+                        <span>Modules</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#form" class="nav__link">
+                        <i class="ri-question-answer-line"></i>
+                        <span>Questionnaires</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!--Theme Button-->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+         </nav>
+         
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div data-aos="fade-up" class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Explore & <br>
+                     Learn
+                  </h1>
+
+                  <p class="home__description">
+                     Embark on your academic journey with ease as Educaseek becomes your go-to destination for accessing 
+                     a wealth of educational resources tailored to STEM Computing subjects.
+                  </p>
+
+                  <a href="#videos" class="button"> Explore Now</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home_video.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home_module.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home_questionnaire.png" alt="image" class="home__img">
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <div class="services__container container grid">
+               <article data-aos="fade-right" class="services__card">
+                  <i class="ri-shield-check-line"></i>
+                  <h3 class="services__title">Accurate Information</h3>
+                  <p class="services__description">"Educaseek rigorously vets its content to guarantee precision and reliability."</p>
+               </article>
+
+               <article data-aos="fade-up" class="services__card">
+                  <i class="ri-timer-flash-line"></i>
+                  <h3 class="services__title">Timely</h3>
+                  <p class="services__description">"Educaseek prioritizes delivering up-to-date lesson materials, keeping students
+                      informed with the latest developments in STEM Computing."</p>
+               </article>
+
+               <article data-aos="fade-left" class="services__card">
+                  <i class="ri-user-follow-line"></i>
+                  <h3 class="services__title">Reliable Authors</h3>
+                  <p class="services__description">"Educaseek draws from reputable platforms like YouTube, ensuring materials come from 
+                     trusted authors and institutions."</p>
+               </article>
+            </div>
+            
+         </section>
+
+         <!--==================== VIDEOS ====================-->
+         <section class="vids_quests section" id="videos">
+            <h2 data-aos="fade-down" class="section__title">
+               Video Materials
+            </h2>
+            
+            <div data-aos="fade-up" class="vids_quests__container container">
+               <div class="vids_quests__swiper swiper" >
+                  <div class="swiper-wrapper">
+
+                     <article class="vids_quests__card swiper-slide">
+                        <iframe id="vid_size" src="https://www.youtube.com/embed/OcKi-95If3Y?si=jlyV6NBbjdDKdSe9" title="YouTube video player"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <h2 class="vids_quests__title">Introduction to Contemporary Philippine Arts from the Regions</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Sir Jhay-M Asia</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+   
+                        <a href="https://www.youtube.com/watch?v=GpLAMc-jT6k" target="_blank" class="bottom=link">
+                           <button class="button">Explore</button>
+                        </a>        
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/PZz2hWSD98g?si=HHr1qwgsx5wLC5Dv" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">Contemporary Philippine Arts from the Regions: Various Art Forms in the Philippines</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Sir Jhay-M Asia</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=PZz2hWSD98g" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/OcKi-95If3Y?si=jlyV6NBbjdDKdSe9" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">Contemporary Philippine Arts from the Regions: Various Contemporary Art Forms (Lesson #03)</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Sir Jhay-M Asia</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=OcKi-95If3Y" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+                    
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/ixHPV6Ahr_w?si=nQj0myyU9lq-b2hh" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">Contemporary Philippine Arts from the Regions: The Filipino Artists (Lesson #04)</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Sir Jhay-M Asia</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=ixHPV6Ahr_w" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/KJdxfe6j8VU?si=16FMUldTTitreA4o" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">DIFFERENT CONTEMPORARY ART TECHNIQUES AND PERFORMANCE PRACTICES/CONTEMPORARY PHILART FROM THEREGIONS</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Rosalinda Favorito</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://youtu.be/KJdxfe6j8VU?si=knhzsSBYXRWnS58x" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/sY4BilQs55U?si=HKqObnhSWBk_GHh0" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">LOCAL MATERIALS AND TECHNIQUES APPLIED TO CONTEMPORARY ARTS || Grade 12</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Wentar</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://youtu.be/sY4BilQs55U?si=6tzr9pkQ0x62wDGS" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/ikzr_6mQ7wo?si=CnA4OoR_hqM_ITBH" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">Materials and Techniques of Contemporary Arts || Contemporary Philippine Arts || Q1 W6</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">EDUCATIONAL TV</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=ikzr_6mQ7wo" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/nfH1kbCJtO0?si=HnG3NO6CDMQ96qDD" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        
+                        <h2 class="vids_quests__title">Materials and Techniques of Contemporary Arts || Contemporary Philippine Arts || Q1 W7</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">EDUCATIONAL TV</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=nfH1kbCJtO0" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/IzdOf5Gf6d4?si=5K8rFRFQ1zNYuK-y" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">G12-CPAR-Q2W2 (Artistic Skills and Techniques)</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">ACE TV</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=IzdOf5Gf6d4" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/Q6BSesiEK0s?si=LLgNuHnd6MmK2WRt" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">Concept in Integrated Arts Production</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Teacher Chris</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=Q6BSesiEK0s" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <div id="vid_container">
+                           <iframe id="vid_size" src="https://www.youtube.com/embed/pkNJOP-jEJg?si=QHmYB6VdUN0lDpkm" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <h2 class="vids_quests__title">Production Planning- CPAR</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">Edz Amats</span>
+                           <span class="vids_quests__platform">Youtube</span>
+                        </div>
+                        
+                        <a href="https://www.youtube.com/watch?v=pkNJOP-jEJg" target="_blank" class="bottom-link">
+                           <button class="button">Explore</button>
+                        </a>
+                     </article>
+                  </div>
+
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+
+         <!--==================== Modules ====================-->
+         <section class="modules" id="modules">
+            <br><br><br><br><!--==== changes ===-->
+            <h2 data-aos="fade-down" class="section__title">
+               Modules
+            </h2>
+
+            <div data-aos="fade-up" class="modules__container container">
+               <div class="modules__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="https://www.teacherph.com/wp-content/uploads/2021/09/CPAR_WEEK-9.pdf" target="_blank" class="modules__card swiper-slide">
+                        <img src="assets/img/P6_module.png" alt="image" class="modules__img">
+         
+                        <div>
+                           <h2 class="modules__title">Quarter 2 - Module 9: Different Contemporary Art Techniques and Performance</h2>
+                           <div class="modules__info">
+                              <span class="modules__author">Unknown</span>
+                              <span class="modules__platform">Teacher PH</span>
+                           </div>
+
+                           <div class="modules__stars">
+                              <span class="modules__platform">It is here to help you to discuss the lesson titled Different Contemporary Art Techniques and
+                                 Performance</span>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="https://depedtambayan.net/wp-content/uploads/2021/11/CPAR_WEEK-15.pdf" target="_blank" class="modules__card swiper-slide">
+                        <img src="assets/img/P6_module.png" alt="image" class="modules__img">
+
+                        <div>
+                           <h2 class="modules__title">Quarter 2 - Module 15: Integrated Arts Production</h2>
+                           <div class="modules__info">
+                              <span class="modules__author">DepEd</span>
+                              <span class="modules__platform">DepEd Tambayan</span>
+                           </div>
+
+                           <div class="modules__stars">
+                              <span class="modules__platform">This module is designed and written with you in mind. It is here to help you
+                                 master the Integrated Arts Production</span>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="https://depedtambayan.net/wp-content/uploads/2021/10/CPAR_WEEK-3.pdf" target="_blank" class="modules__card swiper-slide">
+                        <img src="assets/img/P6_module.png" alt="image" class="modules__img">
+                     
+                        <div>
+                           <h2 class="modules__title">Quarter 1 - Module Contemporary Art Forms from the Regionss</h2>
+                           <div class="modules__info">
+                              <span class="modules__author">DepEd</span>
+                              <span class="modules__platform">DepEd Tambayan</span>
+                           </div>
+
+                           <div class="modules__stars">
+                              <span class="modules__platform">This module is designed and is written for you. It is intended to facilitate understanding
+                                 and appreciation of Philippine Contemporary Arts</span>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="https://k12.starbooks.ph/pluginfile.php/9116/mod_resource/content/1/index.html" target="_blank" class="modules__card swiper-slide">
+                        <img src="assets/img/P6_module.png" alt="image" class="modules__img">
+                     
+                        <div>
+                           <h2 class="modules__title">Combination of Different Arts as Seen in Modern times</h2>
+                           <div class="modules__info">
+                              <span class="modules__author">Front Learners</span>
+                              <span class="modules__platform">K12 STARBOOK PH</span>
+                           </div>
+
+                           <div class="modules__stars">
+                              <span class="modules__platform">This section is about classifying various art forms found in the Philippines</span>
+                           </div>
+                        </div>
+                     </a>
+
+                  </div>
+               </div>
+
+               <div class="modules__swiper swiper">
+                  <div class="swiper-wrapper">
+                     
+                  </div>
+               </div>
+            </div>
+            <br><!--==== changes ===-->
+         </section>
+
+         <!--==================== FORMS ====================-->
+         <section class="vids_quests section" id="form">
+            <h2 data-aos="fade-down" class="section__title">
+               Questionnaire Forms
+            </h2>
+            
+            <div data-aos="fade-up" class="vids_quests__container container">
+               <div class="vids_quests__swiper swiper" >
+                  <div class="swiper-wrapper">
+                     <article class="vids_quests__card swiper-slide">   
+                        <img src="assets/img/P6_questionnaire.png" alt="image" class="vids_quests__img">
+
+                        <h2 class="vids_quests__title">Lesson 1: Combination of Different Art Forms as Seen in Modern Times</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">By marencina</span>
+                           <span class="vids_quests__platform">Quizlet (16)</span>
+                        </div>
+
+                        <a href="https://quizlet.com/830948414/lesson-1-combination-of-different-art-forms-as-seen-in-moderntimes-flash-cards/" target="_blank" class="form_bottom-link" >
+                           <button class="button">Explore</button>
+                        </a>         
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <img src="assets/img/P6_questionnaire.png" alt="image" class="vids_quests__img">
+                        
+                        <h2 class="vids_quests__title">Significant Contemporary Artists from the Regions</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">By murderedpotatochips</span>
+                           <span class="vids_quests__platform">Quizlet (30)</span>
+                        </div>
+   
+                        <a href="https://quizlet.com/844215042/significant-contemporary-artists-from-the-regions-flash-cards/" target="_blank" class="form_bottom-link" >
+                           <button class="button">Explore</button>
+                        </a>  
+                     </article>
+                     
+                     <article class="vids_quests__card swiper-slide">
+                        <img src="assets/img/P6_questionnaire.png" alt="image" class="vids_quests__img">
+                        
+                        <h2 class="vids_quests__title">Different Contemporary Art Techniques and Performance Practices</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">By michaelmasculino03</span>
+                           <span class="vids_quests__platform">Quizlet (9)</span>
+                        </div>
+   
+                        <a href="https://quizlet.com/419610669/different-contemporary-art-techniques-and-performance-practices-flash-cards/?i=5pp1cn&x=1jqt" target="_blank" class="form_bottom-link" >
+                           <button class="button">Explore</button>
+                        </a> 
+                     </article>
+
+                     <article class="vids_quests__card swiper-slide">
+                        <img src="assets/img/P6_questionnaire.png" alt="image" class="vids_quests__img">
+                        
+                        <h2 class="vids_quests__title">CONTEMPORARY ARTS PRODUCTION</h2>
+                        <div class="vids_quests__info">
+                           <span class="vids_quests__author">By roseanne_guapin</span>
+                           <span class="vids_quests__platform">Quizlet (31)</span>
+                        </div>
+   
+                        <a href="https://quizlet.com/871454262/contemporary-arts-production-flash-cards/?i=5pp1cn&x=1jqt" target="_blank" class="form_bottom-link" >
+                           <button class="button">Explore</button>
+                        </a> 
+                     </article>
+
+                     
+                  </div>
+
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer data-aos="fade-down" class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">
+                  <i class="ri-book-3-line"></i> Educaseek
+               </a>
+
+               <p class="footer__description">
+                  Explore and Learn 
+                  <br> Empower Your Education Journey 
+                  <br> with Educaseek
+               </p>
+
+               <br>
+               <p class="footer_description" id="disclaimer">
+                  DISCLAIMER:
+                  All of the information compiled in this website (lesson materials, PDF, Youtube videos, questionnaires) 
+                  are not ours and credited rightfully to the owners. If they seem to have materials that is not copyrighted 
+                  appropriately or there are materials need to remove, ordered by the owner of the material, please contact us 
+                  in our contact information and we will gladly assist the process.
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">Info</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">FAQs</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Privacy Policy</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Terms of Services</a>
+                  </li>
+               </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Group</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="#" class="footer__link">Our Team</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Advisers</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Goal</a>
+                  </li>
+
+                  <li>
+                     <a href="#" class="footer__link">Rate Center</a>
+                  </li>
+               </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+
+               <ul class="footer__links">
+                  <li>
+                     <address class="footer__info">
+                        Pamantasan ng Cabuyao <br>
+                        Katapatan Homes 
+                     </address>
+                  </li>
+
+                  <li>
+                     <address class="footer__info">
+                        Gmail <br>
+                        <a href="https://mail.google.com/mail/u/5/#inbox" target="_blank">
+                           educaseekofficial@gmail.com
+                       </a>
+                     </address>
+                  </li>
+
+                  <li>
+                     <address class="footer__info">
+                        Facebook <br>
+                       facebook.com 
+                     </address>
+                  </li>
+               </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+
+                     </a>
+
+                     <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                        
+                     </a>
+
+                     <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                        
+                     </a>
+                  </div>
+               </div>
+
+               
+            </div>
+         </div>
+
+         <span class="footer__copy">
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <!-- ================== AOS ================== -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> 
+         AOS.init({
+               duration: 500,
+         }); 
+      </script>
+    
+   </body>
+</html>
